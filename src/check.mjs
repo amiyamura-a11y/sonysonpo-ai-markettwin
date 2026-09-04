@@ -49,7 +49,7 @@ for (const width of [1280, 1500, 1680]) {
     if (!near(j.dVisit, 35_150, 200)) problems.push(`サイト来訪増が資料と不一致: ${j.dVisit}`);
     if (!near(j.dQuote, 5_600, 60)) problems.push(`見積増が資料と不一致: ${j.dQuote}`);
     if (!near(j.dContract, 560, 10)) problems.push(`契約増が資料と不一致: ${j.dContract}`);
-    console.log(`資料p.19 ROI ${roi.roi.toFixed(1)}% / p.35 好意率Lift +${j.lift}pt`
+    console.log(`ご提案資料 ROI ${roi.roi.toFixed(1)}% / 例示ケース 好意率Lift +${j.lift}pt`
       + ` / 見積 +${Math.round(j.dQuote)}件 / 契約 +${Math.round(j.dContract)}件`);
   }
   await page.close();
