@@ -1,0 +1,15 @@
+{
+  "name": "sonysonpo-ai-markettwin-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "index.html（デモ本体）を保守するためのツール一式",
+  "scripts": {
+    "embed": "node embed-photos.mjs",
+    "check": "node check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1",
+    "sharp": "^0.34.5"
+  }
+}
