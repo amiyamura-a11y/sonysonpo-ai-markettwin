@@ -95,6 +95,8 @@ node check.mjs --shots /tmp/shots   # スクリーンショットも保存
 
 ## 公開（GitHub Pages）
 
-Settings → Pages → Build and deployment → **Source: Deploy from a branch** →
-**Branch: `main` / `/ (root)`** を選ぶと、`index.html` がそのまま公開されます。
-Jekyll を通さないための `.nojekyll` は同梱済みです。
+**https://amiyamura-a11y.github.io/sonysonpo-ai-markettwin/**
+
+GitHub Pages で公開済みです（Source: Deploy from a branch ／ Branch: `main` ／ `/ (root)`）。
+`main` に push するたび自動で再デプロイされます。ビルドの状況は Actions タブの
+「pages build and deployment」で確認できます。Jekyll を通さないための `.nojekyll` は同梱済みです。
